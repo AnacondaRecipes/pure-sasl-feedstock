@@ -34,7 +34,11 @@ about:
   license_file: LICENSE
   dev_url: https://github.com/thobbs/pure-sasl
   doc_url: https://github.com/thobbs/pure-sasl
-  summary: A pure python SASL client
+  summary: Pure Python client SASL implementation
+  description: |
+    This package provides a reasonably high-level SASL client written in pure
+    Python. By default, support for PLAIN, ANONYMOUS, CRAM-MD5, DIGEST-MD5, and
+    GSSAPI is provided.
 
 extra:
   recipe-maintainers:
