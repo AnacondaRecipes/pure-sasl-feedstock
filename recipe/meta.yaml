@@ -1,5 +1,5 @@
 {% set name = "pure-sasl" %}
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 54458deb9574e293aa58d820f4a94271770401409c4cd8b3dd86f1a827cffde7
+  sha256: 53c1355f5da95e2b85b2cc9a6af435518edc20c81193faa0eea65fdc835138f4
 
 build:
   number: 0
